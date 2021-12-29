@@ -1,5 +1,5 @@
 <pre>
-<img src="" width="300">
+<img src="https://github.com/gzeinnumer/EasyEmptyListState/blob/master/preview/preview_1.gif" width="300"> <img src="https://github.com/gzeinnumer/EasyEmptyListState/blob/master/preview/preview_2.gif" width="300"> <img src="https://github.com/gzeinnumer/EasyEmptyListState/blob/master/preview/preview_3.jpg" width="300">
 </pre>
 
 <h1 align="center">
@@ -41,7 +41,7 @@ allprojects {
 // build.gradle app/module
 dependencies {
   ...
-  implementation 'com.github.gzeinnumer:EasyRangeSeekBar:version'
+  implementation 'com.github.gzeinnumer:EasyEmptyListState:version'
 }
 ```
 
@@ -122,10 +122,13 @@ easyEmptyList.rv.setNestedScrollingEnabled(true); // enable nested
 ---
 # Example Code/App
 
-[MainActivity.java](https://github.com/gzeinnumer/EasyRangeSeekBar/blob/master/app/src/main/java/com/gzeinnumer/easyrangeseekbar/MainActivity.java)
-[activity_main.xml](https://github.com/gzeinnumer/EasyRangeSeekBar/blob/master/app/src/main/res/layout/activity_main.xml)
+- Nested
+[NestedActivity.java](https://github.com/gzeinnumer/EasyEmptyListState/blob/master/app/src/main/java/com/gzeinnumer/easyemptyliststate/ui/nested/NestedActivity.java)
+[activity_nested.xml](https://github.com/gzeinnumer/EasyEmptyListState/blob/master/app/src/main/res/layout/activity_nested.xml)
 
-[Sample Code And App](https://github.com/gzeinnumer/EasyRangeSeekBarExample)
+- No Nested
+[NoNestedActivity.java](https://github.com/gzeinnumer/EasyEmptyListState/blob/master/app/src/main/java/com/gzeinnumer/easyemptyliststate/ui/noNested/NoNestedActivity.java)
+[activity_no_nested.xml](https://github.com/gzeinnumer/EasyEmptyListState/blob/master/app/src/main/res/layout/activity_no_nested.xml)
 
 ---
 # Version
