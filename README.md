@@ -1,5 +1,5 @@
 <pre>
-<img src="https://github.com/gzeinnumer/EasyEmptyListState/blob/master/preview/preview_1.gif" width="300"> <img src="https://github.com/gzeinnumer/EasyEmptyListState/blob/master/preview/preview_2.gif" width="300"> <img src="https://github.com/gzeinnumer/EasyEmptyListState/blob/master/preview/preview_3.jpg" width="300">
+<img src="https://github.com/gzeinnumer/EasyEmptyListState/blob/master/preview/preview_1.gif" width="200"> <img src="https://github.com/gzeinnumer/EasyEmptyListState/blob/master/preview/preview_2.gif" width="200"> <img src="https://github.com/gzeinnumer/EasyEmptyListState/blob/master/preview/preview_3.jpg" width="200">
 </pre>
 
 <h1 align="center">

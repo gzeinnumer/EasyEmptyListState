@@ -15,7 +15,7 @@ import com.gzeinnumer.easyemptyliststate.R;
 public class DummyAdapterV2 extends RecyclerView.Adapter<DummyAdapterV2.MyHolder> {
 
     private int layout;
-    private int size = 20;
+    private int size = 100;
     private OnItemClickListener onItemClickListener;
     private Context context;
 
