@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/VIDEO/PEMOGRAMANMOBILE/EasyEmptyListState/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/VIDEO/PEMOGRAMANMOBILE/EasyEmptyListState/app/src/main/res/layout/activity_nested.xml" value="0.225" />
+        <entry key="..\:/VIDEO/PEMOGRAMANMOBILE/EasyEmptyListState/app/src/main/res/layout/activity_no_nested.xml" value="0.225" />
         <entry key="..\:/VIDEO/PEMOGRAMANMOBILE/EasyEmptyListState/app/src/main/res/layout/custom_empty_state_v2.xml" value="0.225" />
         <entry key="..\:/VIDEO/PEMOGRAMANMOBILE/EasyEmptyListState/app/src/main/res/layout/item_view.xml" value="0.225" />
         <entry key="..\:/VIDEO/PEMOGRAMANMOBILE/EasyEmptyListState/app/src/main/res/layout/param3.xml" value="0.225" />

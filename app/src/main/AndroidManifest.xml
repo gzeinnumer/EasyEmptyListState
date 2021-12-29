@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EasyEmptyListState">
         <activity
+            android:name=".ui.noNested.NoNestedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.nested.NestedActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

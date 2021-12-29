@@ -48,8 +48,8 @@ dependencies {
 ---
 # Feature List
 
-- [x] [No Nested]()
-- [x] [Nested]()
+- [x] [No Nested](#No Nested)
+- [x] [Nested](#Nested)
 
 #
 #### No Nested
@@ -88,7 +88,6 @@ EasyEmptyList easyEmptyList = findViewById(R.id.easy_empty_list);
 easyEmptyList.rv.setAdapter(adapter);
 easyEmptyList.rv.hasFixedSize();
 easyEmptyList.rv.setLayoutManager(new LinearLayoutManager(this));
-
 
 //use list.size();
 //if size == 0 , R.drawable.no_data_custom will SHOW RecyclerView will HIDE

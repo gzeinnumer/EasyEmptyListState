@@ -4,38 +4,27 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
+import com.gzeinnumer.easyemptyliststate.ui.nested.NestedActivity;
+import com.gzeinnumer.easyemptyliststate.ui.noNested.NoNestedActivity;
 import com.gzeinnumer.eels.EasyEmptyList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EasyEmptyList easyEmptyList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        easyEmptyList = findViewById(R.id.easy_empty_list);
-
-        initRVView();
-    }
-
-    private void initRVView() {
-        DummyAdapterV2 adapter = new DummyAdapterV2(R.layout.item_view, position -> {
-
+        findViewById(R.id.btn_nested).setOnClickListener(v -> {
+            startActivity(new Intent(getApplicationContext(), NestedActivity.class));
         });
-
-//        StaggeredGridLayoutManager layoutManager = new StaggeredGridLayoutManager(2, LinearLayoutManager.VERTICAL);
-//        GridLayoutManager layoutManager = new GridLayoutManager(this, 2);
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
-
-        easyEmptyList.rv.setAdapter(adapter);
-        easyEmptyList.rv.setNestedScrollingEnabled(true);
-        easyEmptyList.rv.hasFixedSize();
-        easyEmptyList.rv.setLayoutManager(layoutManager);
-        easyEmptyList.setSize(1);
-        easyEmptyList.setImageEmpty(R.drawable.no_data_custom);
+        findViewById(R.id.btn_no_nested).setOnClickListener(v -> {
+            startActivity(new Intent(getApplicationContext(), NoNestedActivity.class));
+        });
     }
 }
