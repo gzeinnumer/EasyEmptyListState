@@ -1,0 +1,3 @@
+rootProject.name = "EasyEmptyListState"
+include ':app'
+include ':eels'
