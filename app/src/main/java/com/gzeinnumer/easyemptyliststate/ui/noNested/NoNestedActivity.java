@@ -35,8 +35,8 @@ public class NoNestedActivity extends AppCompatActivity {
         //use list.size();
         //if size == 0 , R.drawable.no_data_custom will SHOW RecyclerView will HIDE
         //if size > 0, R.drawable.no_data_custom will HIDE RecyclerView will SHOW
-//        easyEmptyList.setSize(1);
-        easyEmptyList.setSize(0);
+        easyEmptyList.setSize(1);
+//        easyEmptyList.setSize(0);
         easyEmptyList.setImageEmpty(R.drawable.no_data_custom);
     }
 }
